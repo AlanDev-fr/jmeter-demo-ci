@@ -56,6 +56,7 @@ jobs:
 
       - name: Ejecutar el plan de pruebas (modo consola)
         run: |
+          rm -rf reporte resultado.jtl
           jmeter -n -t demo-test-plan.jmx -l resultado.jtl -e -o reporte
 
       - name: Evaluar umbrales de rendimiento
