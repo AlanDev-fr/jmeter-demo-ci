@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1785186822590,39,GET /health,200,OK,Usuarios Concurrentes 1-1,text,true,,248,150,1,1,http://localhost:3000/health,33,0,27
+1785186822632,5,GET /users,200,OK,Usuarios Concurrentes 1-1,text,true,,3749,149,1,1,http://localhost:3000/users,4,0,1
+1785186822637,2,GET /users/1,200,OK,Usuarios Concurrentes 1-1,text,true,,228,151,1,1,http://localhost:3000/users/1,2,0,1
+1785186822640,11,POST /users,201,Created,Usuarios Concurrentes 1-1,text,true,,244,194,1,1,http://localhost:3000/users,11,0,3
+1785186822985,2,GET /health,200,OK,Usuarios Concurrentes 1-2,text,true,,248,150,2,2,http://localhost:3000/health,2,0,1
+1785186822988,2,GET /users,200,OK,Usuarios Concurrentes 1-2,text,true,,3782,149,2,2,http://localhost:3000/users,2,0,1
+1785186822991,3,GET /users/1,200,OK,Usuarios Concurrentes 1-2,text,true,,228,151,2,2,http://localhost:3000/users/1,2,0,1
+1785186822995,3,POST /users,201,Created,Usuarios Concurrentes 1-2,text,true,,244,194,2,2,http://localhost:3000/users,2,0,2
+1785186823484,6,GET /health,200,OK,Usuarios Concurrentes 1-3,text,true,,248,150,3,3,http://localhost:3000/health,5,0,3
+1785186823492,6,GET /users,200,OK,Usuarios Concurrentes 1-3,text,true,,3815,149,3,3,http://localhost:3000/users,6,0,2
+1785186823500,5,GET /users/1,200,OK,Usuarios Concurrentes 1-3,text,true,,228,151,3,3,http://localhost:3000/users/1,5,0,3
+1785186823507,7,POST /users,201,Created,Usuarios Concurrentes 1-3,text,true,,244,194,3,3,http://localhost:3000/users,6,0,4
+1785186823983,5,GET /health,200,OK,Usuarios Concurrentes 1-4,text,true,,248,150,4,4,http://localhost:3000/health,5,0,3
+1785186823990,42,GET /users,200,OK,Usuarios Concurrentes 1-4,text,true,,3848,149,4,4,http://localhost:3000/users,42,0,2
+1785186824034,5,GET /users/1,200,OK,Usuarios Concurrentes 1-4,text,true,,228,151,4,4,http://localhost:3000/users/1,4,0,2
+1785186824040,6,POST /users,201,Created,Usuarios Concurrentes 1-4,text,true,,244,194,4,4,http://localhost:3000/users,6,0,3
+1785186822653,1514,GET /slow,200,OK,Usuarios Concurrentes 1-1,text,true,,240,156,4,4,http://localhost:3000/slow?ms=1500,1513,0,2
+1785186824168,6,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-1,text,false,,268,149,4,4,http://localhost:3000/error,6,0,3
+1785186824180,5,GET /health,200,OK,Usuarios Concurrentes 1-1,text,true,,248,150,4,4,http://localhost:3000/health,5,0,2
+1785186824187,4,GET /users,200,OK,Usuarios Concurrentes 1-1,text,true,,3881,149,4,4,http://localhost:3000/users,4,0,1
+1785186824193,6,GET /users/1,200,OK,Usuarios Concurrentes 1-1,text,true,,228,151,4,4,http://localhost:3000/users/1,6,0,3
+1785186824201,5,POST /users,201,Created,Usuarios Concurrentes 1-1,text,true,,244,194,4,4,http://localhost:3000/users,5,0,2
+1785186824484,8,GET /health,200,OK,Usuarios Concurrentes 1-5,text,true,,248,150,5,5,http://localhost:3000/health,6,0,3
+1785186824494,6,GET /users,200,OK,Usuarios Concurrentes 1-5,text,true,,3914,149,5,5,http://localhost:3000/users,6,0,2
+1785186822998,1504,GET /slow,200,OK,Usuarios Concurrentes 1-2,text,true,,240,156,5,5,http://localhost:3000/slow?ms=1500,1504,0,1
+1785186824504,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-2,text,false,,268,149,5,5,http://localhost:3000/error,4,0,2
+1785186824503,8,GET /users/1,200,OK,Usuarios Concurrentes 1-5,text,true,,228,151,5,5,http://localhost:3000/users/1,7,0,5
+1785186824509,6,GET /health,200,OK,Usuarios Concurrentes 1-2,text,true,,248,150,5,5,http://localhost:3000/health,6,0,3
+1785186824512,6,POST /users,201,Created,Usuarios Concurrentes 1-5,text,true,,244,194,5,5,http://localhost:3000/users,6,0,2
+1785186824516,4,GET /users,200,OK,Usuarios Concurrentes 1-2,text,true,,3947,149,5,5,http://localhost:3000/users,4,0,3
+1785186824521,4,GET /users/1,200,OK,Usuarios Concurrentes 1-2,text,true,,228,151,5,5,http://localhost:3000/users/1,3,0,2
+1785186824525,6,POST /users,201,Created,Usuarios Concurrentes 1-2,text,true,,244,194,5,5,http://localhost:3000/users,6,0,2
+1785186824985,6,GET /health,200,OK,Usuarios Concurrentes 1-6,text,true,,248,150,6,6,http://localhost:3000/health,6,0,3
+1785186824992,4,GET /users,200,OK,Usuarios Concurrentes 1-6,text,true,,3980,149,6,6,http://localhost:3000/users,4,0,2
+1785186824998,6,GET /users/1,200,OK,Usuarios Concurrentes 1-6,text,true,,228,151,6,6,http://localhost:3000/users/1,5,0,3
+1785186825006,5,POST /users,201,Created,Usuarios Concurrentes 1-6,text,true,,244,194,6,6,http://localhost:3000/users,4,0,2
+1785186823515,1545,GET /slow,200,OK,Usuarios Concurrentes 1-3,text,true,,240,156,6,6,http://localhost:3000/slow?ms=1500,1545,0,1
+1785186825062,6,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-3,text,false,,268,149,6,6,http://localhost:3000/error,5,0,3
+1785186825069,6,GET /health,200,OK,Usuarios Concurrentes 1-3,text,true,,248,150,6,6,http://localhost:3000/health,6,0,3
+1785186825076,6,GET /users,200,OK,Usuarios Concurrentes 1-3,text,true,,4013,149,6,6,http://localhost:3000/users,5,0,3
+1785186825084,4,GET /users/1,200,OK,Usuarios Concurrentes 1-3,text,true,,228,151,6,6,http://localhost:3000/users/1,3,0,2
+1785186825089,7,POST /users,201,Created,Usuarios Concurrentes 1-3,text,true,,244,194,6,6,http://localhost:3000/users,6,0,4
+1785186825481,6,GET /health,200,OK,Usuarios Concurrentes 1-7,text,true,,248,150,7,7,http://localhost:3000/health,5,0,2
+1785186825489,6,GET /users,200,OK,Usuarios Concurrentes 1-7,text,true,,4046,149,7,7,http://localhost:3000/users,6,0,3
+1785186825497,6,GET /users/1,200,OK,Usuarios Concurrentes 1-7,text,true,,228,151,7,7,http://localhost:3000/users/1,5,0,3
+1785186825505,7,POST /users,201,Created,Usuarios Concurrentes 1-7,text,true,,244,194,7,7,http://localhost:3000/users,7,0,3
+1785186824048,1518,GET /slow,200,OK,Usuarios Concurrentes 1-4,text,true,,240,156,7,7,http://localhost:3000/slow?ms=1500,1517,0,2
+1785186825567,6,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-4,text,false,,268,149,7,7,http://localhost:3000/error,5,0,3
+1785186825575,5,GET /health,200,OK,Usuarios Concurrentes 1-4,text,true,,248,150,7,7,http://localhost:3000/health,5,0,3
+1785186825582,4,GET /users,200,OK,Usuarios Concurrentes 1-4,text,true,,4079,149,7,7,http://localhost:3000/users,3,0,2
+1785186825587,11,GET /users/1,200,OK,Usuarios Concurrentes 1-4,text,true,,228,151,7,7,http://localhost:3000/users/1,10,0,3
+1785186825599,6,POST /users,201,Created,Usuarios Concurrentes 1-4,text,true,,244,194,7,7,http://localhost:3000/users,5,0,3
+1785186824207,1520,GET /slow,200,OK,Usuarios Concurrentes 1-1,text,true,,240,156,7,7,http://localhost:3000/slow?ms=1500,1519,0,2
+1785186825728,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-1,text,false,,268,149,7,7,http://localhost:3000/error,4,0,3
+1785186825735,4,GET /health,200,OK,Usuarios Concurrentes 1-1,text,true,,248,150,7,7,http://localhost:3000/health,3,0,2
+1785186825740,4,GET /users,200,OK,Usuarios Concurrentes 1-1,text,true,,4112,149,7,7,http://localhost:3000/users,4,0,2
+1785186825746,4,GET /users/1,200,OK,Usuarios Concurrentes 1-1,text,true,,228,151,7,7,http://localhost:3000/users/1,3,0,2
+1785186825751,5,POST /users,201,Created,Usuarios Concurrentes 1-1,text,true,,244,194,7,7,http://localhost:3000/users,5,0,2
+1785186825981,5,GET /health,200,OK,Usuarios Concurrentes 1-8,text,true,,248,150,8,8,http://localhost:3000/health,5,0,3
+1785186825987,5,GET /users,200,OK,Usuarios Concurrentes 1-8,text,true,,4145,149,8,8,http://localhost:3000/users,4,0,2
+1785186825994,4,GET /users/1,200,OK,Usuarios Concurrentes 1-8,text,true,,228,151,8,8,http://localhost:3000/users/1,4,0,2
+1785186826000,6,POST /users,201,Created,Usuarios Concurrentes 1-8,text,true,,244,194,8,8,http://localhost:3000/users,5,0,2
+1785186824519,1517,GET /slow,200,OK,Usuarios Concurrentes 1-5,text,true,,240,156,8,8,http://localhost:3000/slow?ms=1500,1517,0,2
+1785186824533,1509,GET /slow,200,OK,Usuarios Concurrentes 1-2,text,true,,240,156,8,8,http://localhost:3000/slow?ms=1500,1509,0,2
+1785186826038,7,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-5,text,false,,268,149,8,8,http://localhost:3000/error,7,0,2
+1785186826043,6,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-2,text,false,,268,149,8,8,http://localhost:3000/error,5,0,3
+1785186826047,5,GET /health,200,OK,Usuarios Concurrentes 1-5,text,true,,248,150,8,8,http://localhost:3000/health,5,0,3
+1785186826050,3,GET /health,200,OK,Usuarios Concurrentes 1-2,text,true,,248,150,8,8,http://localhost:3000/health,3,0,2
+1785186826053,4,GET /users,200,OK,Usuarios Concurrentes 1-5,text,true,,4178,149,8,8,http://localhost:3000/users,4,0,2
+1785186826054,5,GET /users,200,OK,Usuarios Concurrentes 1-2,text,true,,4178,149,8,8,http://localhost:3000/users,4,0,2
+1785186826060,3,GET /users/1,200,OK,Usuarios Concurrentes 1-2,text,true,,228,151,8,8,http://localhost:3000/users/1,3,0,1
+1785186826059,4,GET /users/1,200,OK,Usuarios Concurrentes 1-5,text,true,,228,151,8,8,http://localhost:3000/users/1,3,0,2
+1785186826063,4,POST /users,201,Created,Usuarios Concurrentes 1-2,text,true,,244,194,8,8,http://localhost:3000/users,3,0,2
+1785186826064,3,POST /users,201,Created,Usuarios Concurrentes 1-5,text,true,,244,194,8,8,http://localhost:3000/users,3,0,2
+1785186826481,4,GET /health,200,OK,Usuarios Concurrentes 1-9,text,true,,248,150,9,9,http://localhost:3000/health,4,0,2
+1785186826487,4,GET /users,200,OK,Usuarios Concurrentes 1-9,text,true,,4244,149,9,9,http://localhost:3000/users,4,0,1
+1785186826493,5,GET /users/1,200,OK,Usuarios Concurrentes 1-9,text,true,,228,151,9,9,http://localhost:3000/users/1,4,0,2
+1785186826500,4,POST /users,201,Created,Usuarios Concurrentes 1-9,text,true,,244,194,9,9,http://localhost:3000/users,4,0,1
+1785186825012,1507,GET /slow,200,OK,Usuarios Concurrentes 1-6,text,true,,240,156,9,9,http://localhost:3000/slow?ms=1500,1506,0,3
+1785186826520,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-6,text,false,,268,149,9,9,http://localhost:3000/error,4,0,2
+1785186826527,4,GET /health,200,OK,Usuarios Concurrentes 1-6,text,true,,248,150,9,9,http://localhost:3000/health,4,0,2
+1785186826533,6,GET /users,200,OK,Usuarios Concurrentes 1-6,text,true,,4277,149,9,9,http://localhost:3000/users,5,0,3
+1785186826540,3,GET /users/1,200,OK,Usuarios Concurrentes 1-6,text,true,,228,151,9,9,http://localhost:3000/users/1,3,0,2
+1785186826545,4,POST /users,201,Created,Usuarios Concurrentes 1-6,text,true,,244,194,9,9,http://localhost:3000/users,3,0,2
+1785186825097,1514,GET /slow,200,OK,Usuarios Concurrentes 1-3,text,true,,240,156,9,9,http://localhost:3000/slow?ms=1500,1513,0,3
+1785186826612,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-3,text,false,,268,149,9,9,http://localhost:3000/error,5,0,3
+1785186826619,4,GET /health,200,OK,Usuarios Concurrentes 1-3,text,true,,248,150,9,9,http://localhost:3000/health,3,0,2
+1785186826625,5,GET /users,200,OK,Usuarios Concurrentes 1-3,text,true,,4311,149,9,9,http://localhost:3000/users,4,0,2
+1785186826631,4,GET /users/1,200,OK,Usuarios Concurrentes 1-3,text,true,,228,151,9,9,http://localhost:3000/users/1,3,0,2
+1785186826636,5,POST /users,201,Created,Usuarios Concurrentes 1-3,text,true,,244,194,9,9,http://localhost:3000/users,4,0,2
+1785186826987,4,GET /health,200,OK,Usuarios Concurrentes 1-10,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186826992,5,GET /users,200,OK,Usuarios Concurrentes 1-10,text,true,,4344,149,10,10,http://localhost:3000/users,5,0,3
+1785186826998,4,GET /users/1,200,OK,Usuarios Concurrentes 1-10,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186827002,3,POST /users,201,Created,Usuarios Concurrentes 1-10,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186825515,1517,GET /slow,200,OK,Usuarios Concurrentes 1-7,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1517,0,3
+1785186827033,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-7,text,false,,268,149,10,10,http://localhost:3000/error,4,0,3
+1785186827039,4,GET /health,200,OK,Usuarios Concurrentes 1-7,text,true,,248,150,10,10,http://localhost:3000/health,3,0,2
+1785186827044,4,GET /users,200,OK,Usuarios Concurrentes 1-7,text,true,,4377,149,10,10,http://localhost:3000/users,3,0,2
+1785186827049,4,GET /users/1,200,OK,Usuarios Concurrentes 1-7,text,true,,228,151,10,10,http://localhost:3000/users/1,4,0,2
+1785186827054,5,POST /users,201,Created,Usuarios Concurrentes 1-7,text,true,,244,194,10,10,http://localhost:3000/users,5,0,3
+1785186825606,1519,GET /slow,200,OK,Usuarios Concurrentes 1-4,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1519,0,2
+1785186827126,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-4,text,false,,268,149,10,10,http://localhost:3000/error,5,0,3
+1785186827132,5,GET /health,200,OK,Usuarios Concurrentes 1-4,text,true,,248,150,10,10,http://localhost:3000/health,4,0,3
+1785186827138,5,GET /users,200,OK,Usuarios Concurrentes 1-4,text,true,,4410,149,10,10,http://localhost:3000/users,5,0,2
+1785186827145,4,GET /users/1,200,OK,Usuarios Concurrentes 1-4,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186827150,5,POST /users,201,Created,Usuarios Concurrentes 1-4,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186825758,1508,GET /slow,200,OK,Usuarios Concurrentes 1-1,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1507,0,2
+1785186827267,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-1,text,false,,268,149,10,10,http://localhost:3000/error,4,0,3
+1785186827272,5,GET /health,200,OK,Usuarios Concurrentes 1-1,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186827279,5,GET /users,200,OK,Usuarios Concurrentes 1-1,text,true,,4443,149,10,10,http://localhost:3000/users,5,0,3
+1785186827285,4,GET /users/1,200,OK,Usuarios Concurrentes 1-1,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186827290,5,POST /users,201,Created,Usuarios Concurrentes 1-1,text,true,,244,194,10,10,http://localhost:3000/users,5,0,2
+1785186826007,1506,GET /slow,200,OK,Usuarios Concurrentes 1-8,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1506,0,2
+1785186827515,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-8,text,false,,268,149,10,10,http://localhost:3000/error,4,0,2
+1785186827521,4,GET /health,200,OK,Usuarios Concurrentes 1-8,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186827526,5,GET /users,200,OK,Usuarios Concurrentes 1-8,text,true,,4476,149,10,10,http://localhost:3000/users,5,0,3
+1785186827532,3,GET /users/1,200,OK,Usuarios Concurrentes 1-8,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,1
+1785186827536,5,POST /users,201,Created,Usuarios Concurrentes 1-8,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186826068,1506,GET /slow,200,OK,Usuarios Concurrentes 1-5,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1506,0,1
+1785186826068,1506,GET /slow,200,OK,Usuarios Concurrentes 1-2,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1506,0,1
+1785186827575,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-2,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186827575,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-5,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186827577,2,GET /health,200,OK,Usuarios Concurrentes 1-2,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186827577,2,GET /health,200,OK,Usuarios Concurrentes 1-5,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186827580,1,GET /users,200,OK,Usuarios Concurrentes 1-5,text,true,,4509,149,10,10,http://localhost:3000/users,1,0,0
+1785186827580,1,GET /users,200,OK,Usuarios Concurrentes 1-2,text,true,,4509,149,10,10,http://localhost:3000/users,1,0,0
+1785186827582,1,GET /users/1,200,OK,Usuarios Concurrentes 1-5,text,true,,228,151,10,10,http://localhost:3000/users/1,1,0,0
+1785186827582,2,GET /users/1,200,OK,Usuarios Concurrentes 1-2,text,true,,228,151,10,10,http://localhost:3000/users/1,2,0,0
+1785186827584,2,POST /users,201,Created,Usuarios Concurrentes 1-5,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186827584,2,POST /users,201,Created,Usuarios Concurrentes 1-2,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186826505,1507,GET /slow,200,OK,Usuarios Concurrentes 1-9,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1507,0,2
+1785186828013,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-9,text,false,,268,149,10,10,http://localhost:3000/error,4,0,3
+1785186828018,3,GET /health,200,OK,Usuarios Concurrentes 1-9,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186828022,5,GET /users,200,OK,Usuarios Concurrentes 1-9,text,true,,4575,149,10,10,http://localhost:3000/users,5,0,2
+1785186828028,3,GET /users/1,200,OK,Usuarios Concurrentes 1-9,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186828032,3,POST /users,201,Created,Usuarios Concurrentes 1-9,text,true,,244,194,10,10,http://localhost:3000/users,2,0,0
+1785186826550,1507,GET /slow,200,OK,Usuarios Concurrentes 1-6,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1506,0,3
+1785186828058,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-6,text,false,,268,149,10,10,http://localhost:3000/error,3,0,1
+1785186828062,3,GET /health,200,OK,Usuarios Concurrentes 1-6,text,true,,248,150,10,10,http://localhost:3000/health,3,0,1
+1785186828066,3,GET /users,200,OK,Usuarios Concurrentes 1-6,text,true,,4608,149,10,10,http://localhost:3000/users,2,0,2
+1785186828070,2,GET /users/1,200,OK,Usuarios Concurrentes 1-6,text,true,,228,151,10,10,http://localhost:3000/users/1,2,0,1
+1785186828073,5,POST /users,201,Created,Usuarios Concurrentes 1-6,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186826642,1554,GET /slow,200,OK,Usuarios Concurrentes 1-3,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1554,0,2
+1785186828198,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-3,text,false,,268,149,10,10,http://localhost:3000/error,3,0,2
+1785186828203,3,GET /health,200,OK,Usuarios Concurrentes 1-3,text,true,,248,150,10,10,http://localhost:3000/health,3,0,1
+1785186828207,4,GET /users,200,OK,Usuarios Concurrentes 1-3,text,true,,4641,149,10,10,http://localhost:3000/users,4,0,2
+1785186828212,5,GET /users/1,200,OK,Usuarios Concurrentes 1-3,text,true,,228,151,10,10,http://localhost:3000/users/1,4,0,3
+1785186828217,3,POST /users,201,Created,Usuarios Concurrentes 1-3,text,true,,244,194,10,10,http://localhost:3000/users,3,0,1
+1785186827005,1519,GET /slow,200,OK,Usuarios Concurrentes 1-10,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1519,0,2
+1785186828526,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-10,text,false,,268,149,10,10,http://localhost:3000/error,4,0,2
+1785186828531,5,GET /health,200,OK,Usuarios Concurrentes 1-10,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186828537,3,GET /users,200,OK,Usuarios Concurrentes 1-10,text,true,,4674,149,10,10,http://localhost:3000/users,3,0,2
+1785186828541,3,GET /users/1,200,OK,Usuarios Concurrentes 1-10,text,true,,228,151,10,10,http://localhost:3000/users/1,2,0,1
+1785186828545,5,POST /users,201,Created,Usuarios Concurrentes 1-10,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186827060,1511,GET /slow,200,OK,Usuarios Concurrentes 1-7,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1511,0,3
+1785186828572,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-7,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186828576,3,GET /health,200,OK,Usuarios Concurrentes 1-7,text,true,,248,150,10,10,http://localhost:3000/health,3,0,2
+1785186828580,3,GET /users,200,OK,Usuarios Concurrentes 1-7,text,true,,4707,149,10,10,http://localhost:3000/users,2,0,1
+1785186828583,3,GET /users/1,200,OK,Usuarios Concurrentes 1-7,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186828587,2,POST /users,201,Created,Usuarios Concurrentes 1-7,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186827156,1509,GET /slow,200,OK,Usuarios Concurrentes 1-4,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1508,0,2
+1785186828666,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-4,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186828670,3,GET /health,200,OK,Usuarios Concurrentes 1-4,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186828674,3,GET /users,200,OK,Usuarios Concurrentes 1-4,text,true,,4740,149,10,10,http://localhost:3000/users,2,0,1
+1785186828678,3,GET /users/1,200,OK,Usuarios Concurrentes 1-4,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186828682,4,POST /users,201,Created,Usuarios Concurrentes 1-4,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186827297,1508,GET /slow,200,OK,Usuarios Concurrentes 1-1,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1508,0,3
+1785186828806,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-1,text,false,,268,149,10,10,http://localhost:3000/error,4,0,2
+1785186828812,4,GET /health,200,OK,Usuarios Concurrentes 1-1,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186828817,3,GET /users,200,OK,Usuarios Concurrentes 1-1,text,true,,4773,149,10,10,http://localhost:3000/users,3,0,1
+1785186828821,5,GET /users/1,200,OK,Usuarios Concurrentes 1-1,text,true,,228,151,10,10,http://localhost:3000/users/1,4,0,3
+1785186828826,5,POST /users,201,Created,Usuarios Concurrentes 1-1,text,true,,244,194,10,10,http://localhost:3000/users,5,0,2
+1785186827542,1511,GET /slow,200,OK,Usuarios Concurrentes 1-8,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1510,0,3
+1785186829054,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-8,text,false,,268,149,10,10,http://localhost:3000/error,5,0,3
+1785186829061,5,GET /health,200,OK,Usuarios Concurrentes 1-8,text,true,,248,150,10,10,http://localhost:3000/health,5,0,3
+1785186829066,3,GET /users,200,OK,Usuarios Concurrentes 1-8,text,true,,4806,149,10,10,http://localhost:3000/users,3,0,2
+1785186829071,4,GET /users/1,200,OK,Usuarios Concurrentes 1-8,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186829076,4,POST /users,201,Created,Usuarios Concurrentes 1-8,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186827586,1514,GET /slow,200,OK,Usuarios Concurrentes 1-2,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1514,0,1
+1785186827586,1515,GET /slow,200,OK,Usuarios Concurrentes 1-5,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1514,0,1
+1785186829101,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-5,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186829100,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-2,text,false,,268,149,10,10,http://localhost:3000/error,3,0,2
+1785186829104,2,GET /health,200,OK,Usuarios Concurrentes 1-2,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186829104,2,GET /health,200,OK,Usuarios Concurrentes 1-5,text,true,,248,150,10,10,http://localhost:3000/health,1,0,1
+1785186829106,3,GET /users,200,OK,Usuarios Concurrentes 1-2,text,true,,4839,149,10,10,http://localhost:3000/users,3,0,1
+1785186829106,5,GET /users,200,OK,Usuarios Concurrentes 1-5,text,true,,4839,149,10,10,http://localhost:3000/users,4,0,2
+1785186829111,3,GET /users/1,200,OK,Usuarios Concurrentes 1-5,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,1
+1785186829111,4,GET /users/1,200,OK,Usuarios Concurrentes 1-2,text,true,,228,151,10,10,http://localhost:3000/users/1,4,0,1
+1785186829115,3,POST /users,201,Created,Usuarios Concurrentes 1-5,text,true,,244,194,10,10,http://localhost:3000/users,3,0,1
+1785186829116,4,POST /users,201,Created,Usuarios Concurrentes 1-2,text,true,,244,194,10,10,http://localhost:3000/users,3,0,1
+1785186828036,1516,GET /slow,200,OK,Usuarios Concurrentes 1-9,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1515,0,2
+1785186829552,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-9,text,false,,268,149,10,10,http://localhost:3000/error,3,0,1
+1785186829555,2,GET /health,200,OK,Usuarios Concurrentes 1-9,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186829558,2,GET /users,200,OK,Usuarios Concurrentes 1-9,text,true,,4905,149,10,10,http://localhost:3000/users,2,0,1
+1785186829561,3,GET /users/1,200,OK,Usuarios Concurrentes 1-9,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,1
+1785186829565,2,POST /users,201,Created,Usuarios Concurrentes 1-9,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186828079,1519,GET /slow,200,OK,Usuarios Concurrentes 1-6,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1519,0,2
+1785186829599,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-6,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186829602,1,GET /health,200,OK,Usuarios Concurrentes 1-6,text,true,,248,150,10,10,http://localhost:3000/health,1,0,0
+1785186829604,1,GET /users,200,OK,Usuarios Concurrentes 1-6,text,true,,4938,149,10,10,http://localhost:3000/users,1,0,0
+1785186829605,1,GET /users/1,200,OK,Usuarios Concurrentes 1-6,text,true,,228,151,10,10,http://localhost:3000/users/1,1,0,1
+1785186829606,2,POST /users,201,Created,Usuarios Concurrentes 1-6,text,true,,244,194,10,10,http://localhost:3000/users,2,0,1
+1785186828221,1517,GET /slow,200,OK,Usuarios Concurrentes 1-3,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1516,0,1
+1785186829738,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-3,text,false,,268,149,10,10,http://localhost:3000/error,3,0,2
+1785186829742,4,GET /health,200,OK,Usuarios Concurrentes 1-3,text,true,,248,150,10,10,http://localhost:3000/health,4,0,2
+1785186829747,5,GET /users,200,OK,Usuarios Concurrentes 1-3,text,true,,4971,149,10,10,http://localhost:3000/users,5,0,1
+1785186829753,4,GET /users/1,200,OK,Usuarios Concurrentes 1-3,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186829757,4,POST /users,201,Created,Usuarios Concurrentes 1-3,text,true,,244,194,10,10,http://localhost:3000/users,3,0,2
+1785186828551,1514,GET /slow,200,OK,Usuarios Concurrentes 1-10,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1514,0,2
+1785186830066,2,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-10,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186830069,3,GET /health,200,OK,Usuarios Concurrentes 1-10,text,true,,248,150,10,10,http://localhost:3000/health,3,0,2
+1785186830073,3,GET /users,200,OK,Usuarios Concurrentes 1-10,text,true,,5004,149,10,10,http://localhost:3000/users,2,0,1
+1785186830076,5,GET /users/1,200,OK,Usuarios Concurrentes 1-10,text,true,,228,151,10,10,http://localhost:3000/users/1,5,0,3
+1785186830082,4,POST /users,201,Created,Usuarios Concurrentes 1-10,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186828590,1520,GET /slow,200,OK,Usuarios Concurrentes 1-7,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1520,0,3
+1785186830111,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-7,text,false,,268,149,10,10,http://localhost:3000/error,3,0,2
+1785186830115,3,GET /health,200,OK,Usuarios Concurrentes 1-7,text,true,,248,150,10,10,http://localhost:3000/health,3,0,1
+1785186830119,3,GET /users,200,OK,Usuarios Concurrentes 1-7,text,true,,5037,149,10,10,http://localhost:3000/users,2,0,1
+1785186830122,2,GET /users/1,200,OK,Usuarios Concurrentes 1-7,text,true,,228,151,10,10,http://localhost:3000/users/1,2,0,1
+1785186830125,5,POST /users,201,Created,Usuarios Concurrentes 1-7,text,true,,244,194,10,10,http://localhost:3000/users,4,0,2
+1785186828687,1517,GET /slow,200,OK,Usuarios Concurrentes 1-4,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1516,0,2
+1785186830205,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-4,text,false,,268,149,10,10,http://localhost:3000/error,2,0,1
+1785186830209,3,GET /health,200,OK,Usuarios Concurrentes 1-4,text,true,,248,150,10,10,http://localhost:3000/health,2,0,1
+1785186830212,3,GET /users,200,OK,Usuarios Concurrentes 1-4,text,true,,5070,149,10,10,http://localhost:3000/users,2,0,1
+1785186830215,4,GET /users/1,200,OK,Usuarios Concurrentes 1-4,text,true,,228,151,10,10,http://localhost:3000/users/1,3,0,2
+1785186830219,3,POST /users,201,Created,Usuarios Concurrentes 1-4,text,true,,244,194,10,10,http://localhost:3000/users,3,0,1
+1785186828832,1514,GET /slow,200,OK,Usuarios Concurrentes 1-1,text,true,,240,156,10,10,http://localhost:3000/slow?ms=1500,1513,0,2
+1785186830346,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-1,text,false,,268,149,10,10,http://localhost:3000/error,4,0,2
+1785186829081,1513,GET /slow,200,OK,Usuarios Concurrentes 1-8,text,true,,240,156,9,9,http://localhost:3000/slow?ms=1500,1512,0,2
+1785186830595,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-8,text,false,,268,149,9,9,http://localhost:3000/error,3,0,1
+1785186830599,3,GET /health,200,OK,Usuarios Concurrentes 1-8,text,true,,248,150,9,9,http://localhost:3000/health,3,0,1
+1785186830603,2,GET /users,200,OK,Usuarios Concurrentes 1-8,text,true,,5103,149,9,9,http://localhost:3000/users,2,0,1
+1785186830606,2,GET /users/1,200,OK,Usuarios Concurrentes 1-8,text,true,,228,151,9,9,http://localhost:3000/users/1,2,0,0
+1785186830609,3,POST /users,201,Created,Usuarios Concurrentes 1-8,text,true,,244,194,9,9,http://localhost:3000/users,3,0,1
+1785186829119,1505,GET /slow,200,OK,Usuarios Concurrentes 1-5,text,true,,240,156,9,9,http://localhost:3000/slow?ms=1500,1504,0,2
+1785186829121,1503,GET /slow,200,OK,Usuarios Concurrentes 1-2,text,true,,240,156,9,9,http://localhost:3000/slow?ms=1500,1503,0,1
+1785186830625,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-5,text,false,,268,149,9,9,http://localhost:3000/error,3,0,1
+1785186830625,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-2,text,false,,268,149,9,9,http://localhost:3000/error,4,0,1
+1785186830629,4,GET /health,200,OK,Usuarios Concurrentes 1-5,text,true,,248,150,8,8,http://localhost:3000/health,3,0,2
+1785186830634,3,GET /users,200,OK,Usuarios Concurrentes 1-5,text,true,,5136,149,8,8,http://localhost:3000/users,2,0,1
+1785186830637,3,GET /users/1,200,OK,Usuarios Concurrentes 1-5,text,true,,228,151,8,8,http://localhost:3000/users/1,3,0,2
+1785186830641,2,POST /users,201,Created,Usuarios Concurrentes 1-5,text,true,,244,194,8,8,http://localhost:3000/users,2,0,1
+1785186829567,1513,GET /slow,200,OK,Usuarios Concurrentes 1-9,text,true,,240,156,8,8,http://localhost:3000/slow?ms=1500,1512,0,2
+1785186831080,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-9,text,false,,268,149,8,8,http://localhost:3000/error,3,0,2
+1785186831084,2,GET /health,200,OK,Usuarios Concurrentes 1-9,text,true,,248,150,8,8,http://localhost:3000/health,2,0,1
+1785186831086,3,GET /users,200,OK,Usuarios Concurrentes 1-9,text,true,,5169,149,8,8,http://localhost:3000/users,3,0,2
+1785186831090,2,GET /users/1,200,OK,Usuarios Concurrentes 1-9,text,true,,228,151,8,8,http://localhost:3000/users/1,2,0,1
+1785186831094,3,POST /users,201,Created,Usuarios Concurrentes 1-9,text,true,,244,194,8,8,http://localhost:3000/users,3,0,1
+1785186829608,1517,GET /slow,200,OK,Usuarios Concurrentes 1-6,text,true,,240,156,8,8,http://localhost:3000/slow?ms=1500,1517,0,1
+1785186831127,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-6,text,false,,268,149,8,8,http://localhost:3000/error,2,0,1
+1785186831130,4,GET /health,200,OK,Usuarios Concurrentes 1-6,text,true,,248,150,8,8,http://localhost:3000/health,3,0,2
+1785186831135,2,GET /users,200,OK,Usuarios Concurrentes 1-6,text,true,,5202,149,8,8,http://localhost:3000/users,2,0,1
+1785186831138,2,GET /users/1,200,OK,Usuarios Concurrentes 1-6,text,true,,228,151,8,8,http://localhost:3000/users/1,2,0,0
+1785186831140,3,POST /users,201,Created,Usuarios Concurrentes 1-6,text,true,,244,194,8,8,http://localhost:3000/users,3,0,1
+1785186829761,1519,GET /slow,200,OK,Usuarios Concurrentes 1-3,text,true,,240,156,8,8,http://localhost:3000/slow?ms=1500,1519,0,1
+1785186831281,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-3,text,false,,268,149,8,8,http://localhost:3000/error,4,0,2
+1785186830087,1506,GET /slow,200,OK,Usuarios Concurrentes 1-10,text,true,,240,156,7,7,http://localhost:3000/slow?ms=1500,1505,0,1
+1785186831593,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-10,text,false,,268,149,7,7,http://localhost:3000/error,4,0,2
+1785186831597,3,GET /health,200,OK,Usuarios Concurrentes 1-10,text,true,,248,150,7,7,http://localhost:3000/health,2,0,1
+1785186831600,2,GET /users,200,OK,Usuarios Concurrentes 1-10,text,true,,5235,149,7,7,http://localhost:3000/users,2,0,1
+1785186831603,2,GET /users/1,200,OK,Usuarios Concurrentes 1-10,text,true,,228,151,7,7,http://localhost:3000/users/1,2,0,1
+1785186831605,3,POST /users,201,Created,Usuarios Concurrentes 1-10,text,true,,244,194,7,7,http://localhost:3000/users,3,0,2
+1785186830131,1509,GET /slow,200,OK,Usuarios Concurrentes 1-7,text,true,,240,156,7,7,http://localhost:3000/slow?ms=1500,1509,0,2
+1785186831641,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-7,text,false,,268,149,7,7,http://localhost:3000/error,4,0,3
+1785186831646,3,GET /health,200,OK,Usuarios Concurrentes 1-7,text,true,,248,150,7,7,http://localhost:3000/health,3,0,2
+1785186831650,3,GET /users,200,OK,Usuarios Concurrentes 1-7,text,true,,5268,149,7,7,http://localhost:3000/users,3,0,2
+1785186831654,3,GET /users/1,200,OK,Usuarios Concurrentes 1-7,text,true,,228,151,7,7,http://localhost:3000/users/1,3,0,1
+1785186831657,4,POST /users,201,Created,Usuarios Concurrentes 1-7,text,true,,244,194,7,7,http://localhost:3000/users,3,0,2
+1785186830223,1510,GET /slow,200,OK,Usuarios Concurrentes 1-4,text,true,,240,156,7,7,http://localhost:3000/slow?ms=1500,1509,0,2
+1785186831733,3,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-4,text,false,,268,149,7,7,http://localhost:3000/error,3,0,2
+1785186830613,1508,GET /slow,200,OK,Usuarios Concurrentes 1-8,text,true,,240,156,6,6,http://localhost:3000/slow?ms=1500,1507,0,2
+1785186832121,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-8,text,false,,268,149,6,6,http://localhost:3000/error,3,0,2
+1785186832126,3,GET /health,200,OK,Usuarios Concurrentes 1-8,text,true,,248,150,6,6,http://localhost:3000/health,3,0,1
+1785186832130,4,GET /users,200,OK,Usuarios Concurrentes 1-8,text,true,,5301,149,6,6,http://localhost:3000/users,3,0,2
+1785186832135,4,GET /users/1,200,OK,Usuarios Concurrentes 1-8,text,true,,228,151,6,6,http://localhost:3000/users/1,4,0,2
+1785186832140,4,POST /users,201,Created,Usuarios Concurrentes 1-8,text,true,,244,194,6,6,http://localhost:3000/users,4,0,2
+1785186830644,1504,GET /slow,200,OK,Usuarios Concurrentes 1-5,text,true,,240,156,6,6,http://localhost:3000/slow?ms=1500,1503,0,1
+1785186832148,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-5,text,false,,268,149,6,6,http://localhost:3000/error,3,0,2
+1785186831098,1517,GET /slow,200,OK,Usuarios Concurrentes 1-9,text,true,,240,156,5,5,http://localhost:3000/slow?ms=1500,1517,0,2
+1785186832616,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-9,text,false,,268,149,5,5,http://localhost:3000/error,4,0,2
+1785186832622,6,GET /health,200,OK,Usuarios Concurrentes 1-9,text,true,,248,150,5,5,http://localhost:3000/health,5,0,4
+1785186832629,5,GET /users,200,OK,Usuarios Concurrentes 1-9,text,true,,5334,149,5,5,http://localhost:3000/users,4,0,2
+1785186832635,5,GET /users/1,200,OK,Usuarios Concurrentes 1-9,text,true,,228,151,5,5,http://localhost:3000/users/1,5,0,3
+1785186832640,4,POST /users,201,Created,Usuarios Concurrentes 1-9,text,true,,244,194,5,5,http://localhost:3000/users,3,0,2
+1785186831143,1504,GET /slow,200,OK,Usuarios Concurrentes 1-6,text,true,,240,156,5,5,http://localhost:3000/slow?ms=1500,1503,0,2
+1785186832647,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-6,text,false,,268,149,5,5,http://localhost:3000/error,3,0,2
+1785186831609,1505,GET /slow,200,OK,Usuarios Concurrentes 1-10,text,true,,240,156,4,4,http://localhost:3000/slow?ms=1500,1505,0,2
+1785186833115,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-10,text,false,,268,149,4,4,http://localhost:3000/error,4,0,3
+1785186833121,4,GET /health,200,OK,Usuarios Concurrentes 1-10,text,true,,248,150,4,4,http://localhost:3000/health,4,0,2
+1785186833126,4,GET /users,200,OK,Usuarios Concurrentes 1-10,text,true,,5367,149,4,4,http://localhost:3000/users,4,0,2
+1785186833131,4,GET /users/1,200,OK,Usuarios Concurrentes 1-10,text,true,,228,151,4,4,http://localhost:3000/users/1,3,0,2
+1785186833136,5,POST /users,201,Created,Usuarios Concurrentes 1-10,text,true,,244,194,4,4,http://localhost:3000/users,5,0,2
+1785186831661,1515,GET /slow,200,OK,Usuarios Concurrentes 1-7,text,true,,240,156,4,4,http://localhost:3000/slow?ms=1500,1515,0,1
+1785186833177,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-7,text,false,,268,149,4,4,http://localhost:3000/error,4,0,3
+1785186832145,1513,GET /slow,200,OK,Usuarios Concurrentes 1-8,text,true,,240,156,3,3,http://localhost:3000/slow?ms=1500,1513,0,1
+1785186833660,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-8,text,false,,268,149,3,3,http://localhost:3000/error,3,0,2
+1785186832644,1510,GET /slow,200,OK,Usuarios Concurrentes 1-9,text,true,,240,156,2,2,http://localhost:3000/slow?ms=1500,1509,0,1
+1785186834154,4,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-9,text,false,,268,149,2,2,http://localhost:3000/error,4,0,2
+1785186833142,1515,GET /slow,200,OK,Usuarios Concurrentes 1-10,text,true,,240,156,1,1,http://localhost:3000/slow?ms=1500,1514,0,2
+1785186834658,5,GET /error,500,Internal Server Error,Usuarios Concurrentes 1-10,text,false,,268,149,1,1,http://localhost:3000/error,4,0,3
