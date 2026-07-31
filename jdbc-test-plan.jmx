@@ -45,7 +45,7 @@
         <JDBCSampler guiclass="TestBeanGUI" testclass="JDBCSampler" testname="SELECT Productos">
           <stringProp name="dataSource">dbPool</stringProp>
           <stringProp name="queryType">Select Statement</stringProp>
-          <stringProp name="query">SELECT * FROM productos ORDER BY random() </stringProp>
+          <stringProp name="query">SELECT * FROM productos ORDER BY random()</stringProp>
           <stringProp name="queryArguments"></stringProp>
           <stringProp name="queryArgumentsTypes"></stringProp>
           <stringProp name="variableNames"></stringProp>
